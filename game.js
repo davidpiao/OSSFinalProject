@@ -72,14 +72,12 @@ var startGame = function () {
     Game.setBoard(0, new Starfield(20, 0.4, 100, true));
     Game.setBoard(1, new Starfield(50, 0.6, 100));
     Game.setBoard(2, new Starfield(100, 1.0, 50));
-    Game.setBoard(3, new Starfield(100, 1.0, 50));
   }
   Game.setBoard(
     3,
     new TitleScreen(
       "과제 광선 피하기",
       "교수님의 과제로부터 살아남을 수 있을까요?",
-      "스페이스바를 눌러 시작하세요!",
       playGame
     )
   );
