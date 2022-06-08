@@ -76,8 +76,8 @@ var startGame = function () {
   Game.setBoard(
     3,
     new TitleScreen(
-      "과제 광선 피하기",
-      "교수님의 과제로부터 살아남을 수 있을까요?",
+      "Homework Invasion",
+      "Can you survive from Professor's HWs?",
       playGame
     )
   );
@@ -106,18 +106,14 @@ var playGame = function () {
 var winGame = function () {
   Game.setBoard(
     3,
-    new TitleScreen("승리!", "다시 한번 과제를 박살내러 가볼까요?", playGame)
+    new TitleScreen("Victory!", "Want to smash some more HW?", playGame)
   );
 };
 
 var loseGame = function () {
   Game.setBoard(
     3,
-    new TitleScreen(
-      "패배!",
-      "수 많은 과제에서 살아남지 못하였습니다...",
-      playGame
-    )
+    new TitleScreen("Defeat!", "Couldn't survive from the HWs...", playGame)
   );
 };
 
