@@ -322,7 +322,7 @@ Enemy.prototype.hit = function (damage) {
   }
 };
 
-let point = Game.points;
+var point = Game.points;
 
 var EnemyMissile = function (x, y) {
   this.setup("enemy_missile", { vy: 200, damage: 10 });
