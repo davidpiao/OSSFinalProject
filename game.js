@@ -108,9 +108,8 @@ var winGame = function () {
     3,
     new TitleScreen(
       "Victory!",
-      "You've destroyed total of ",
-      Game.points,
-      "HWs!",
+      "You've destroyed total of %d HWs!",
+      GamePoints,
       playGame
     )
   );
