@@ -77,7 +77,7 @@ var startGame = function () {
     3,
     new TitleScreen(
       "Homework Invasion",
-      "Can you survive from Professor's HWs?" + point,
+      "Can you survive from Professor's HWs?",
       playGame
     )
   );
@@ -106,7 +106,12 @@ var playGame = function () {
 var winGame = function () {
   Game.setBoard(
     3,
-    new TitleScreen("Victory!", "You've destroyed total of HWs!", playGame)
+    new TitleScreen(
+      "Victory!",
+      "You've destroyed total of HWs!",
+      GamePoints,
+      playGame
+    )
   );
 };
 
