@@ -106,7 +106,13 @@ var playGame = function () {
 var winGame = function () {
   Game.setBoard(
     3,
-    new TitleScreen("Victory!", "Want to smash some more HW?", playGame)
+    new TitleScreen(
+      "Victory!",
+      "You've destroyed total of ",
+      Game.points,
+      "HWs!",
+      playGame
+    )
   );
 };
 
