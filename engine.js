@@ -475,7 +475,7 @@ var TouchControls = function () {
 var GamePoints = function () {
   Game.points = 0;
 
-  var pointsLength = 8;
+  var pointsLength = 3;
 
   this.draw = function (ctx) {
     ctx.save();
