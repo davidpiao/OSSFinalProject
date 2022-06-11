@@ -1,7 +1,8 @@
-Alien Invasion
+Homework Invasion
 ==============
-This is the sample game that is built in the first three Chapter of
-mobile HTML5 Game Development.
+
+What does this project do?
+===========================
 
 It is released under both the GPL and MIT license to do with what you will.
 
