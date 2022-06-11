@@ -222,6 +222,7 @@ var PlayerShip = function () {
 
       this.board.add(new PlayerMissile(this.x, this.y + this.h / 2));
       this.board.add(new PlayerMissile(this.x + this.w, this.y + this.h / 2));
+      this.board.add(new PlayerMissile(this.x + this.w, this.y + this.h / 1.5));
     }
   };
 };
