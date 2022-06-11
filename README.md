@@ -2,7 +2,7 @@ Homework Invasion
 ==============
 
 What does this project do?
-===========================
+--------------------------
 
 It is released under both the GPL and MIT license to do with what you will.
 
