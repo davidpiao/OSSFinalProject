@@ -182,7 +182,7 @@ var SpriteSheet = new (function () {
   return this;
 })();
 
-var TitleScreen = function TitleScreen(title, subtitle, subsub, callback) {
+var TitleScreen = function TitleScreen(title, subtitle, callback) {
   var up = false;
   this.step = function (dt) {
     if (!Game.keys["fire"]) up = true;
@@ -200,7 +200,6 @@ var TitleScreen = function TitleScreen(title, subtitle, subsub, callback) {
     var measure2 = ctx.measureText(subtitle);
     ctx.fillText(
       subtitle,
-      subsub,
       Game.width / 2 - measure2.width / 2,
       Game.height / 2 + 40
     );

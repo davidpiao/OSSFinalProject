@@ -74,10 +74,11 @@ var startGame = function () {
     Game.setBoard(2, new Starfield(100, 1.0, 50));
   }
   Game.setBoard(
-    3,
+    4,
     new TitleScreen(
       "Homework Invasion",
       "Can you survive from Professor's HWs?",
+      GamePoints
       playGame
     )
   );
@@ -105,7 +106,7 @@ var playGame = function () {
 
 var winGame = function () {
   Game.setBoard(
-    3,
+    4,
     new TitleScreen(
       "Victory!",
       "You've destroyed total of HWs!",
