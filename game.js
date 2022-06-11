@@ -77,7 +77,7 @@ var startGame = function () {
     3,
     new TitleScreen(
       "Homework Invasion",
-      "Can you survive from Professor's HWs?",
+      "Can you survive from Professor's HWs?" + point,
       playGame
     )
   );
