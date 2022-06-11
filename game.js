@@ -108,7 +108,7 @@ var winGame = function () {
     3,
     new TitleScreen(
       "Victory!",
-      "You've destroyed total of ${point} HWs!" + point,
+      "You've destroyed total of HWs!" + Game.points,
       playGame
     )
   );
@@ -326,7 +326,7 @@ Enemy.prototype.hit = function (damage) {
   }
 };
 
-const point = Game.points;
+const point = Game.points.toString();
 
 var EnemyMissile = function (x, y) {
   this.setup("enemy_missile", { vy: 200, damage: 10 });
