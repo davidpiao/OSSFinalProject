@@ -221,9 +221,10 @@ var PlayerShip = function () {
       this.reload = this.reloadTime;
 
       this.board.add(new PlayerMissile(this.x, this.y + this.h / 2));
-      // this.board.add(new PlayerMissile(this.x + this.w, this.y + this.h / 2));
-      this.board.add(new PlayerMissile(this.x + this.w, this.y + this.h / 4));
-      this.board.add(new PlayerMissile(this.x + this.w / 2, this.y + this.h));
+      this.board.add(new PlayerMissile(this.x + this.w, this.y + this.h / 2));
+      this.board.add(
+        new PlayerMissile(this.x + this.w / 2, this.y + this.h / 4)
+      );
     }
   };
 };
