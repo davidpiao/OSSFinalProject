@@ -326,7 +326,7 @@ Enemy.prototype.hit = function (damage) {
   }
 };
 
-var point = Game.points.toString();
+const point = Game.points.toString();
 
 var EnemyMissile = function (x, y) {
   this.setup("enemy_missile", { vy: 200, damage: 10 });
