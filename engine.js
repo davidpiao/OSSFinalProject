@@ -482,7 +482,7 @@ var GamePoints = function () {
     ctx.font = "bold 18px arial";
     ctx.fillStyle = "#FFFFFF";
 
-    var txt = "" + Game.points;
+    var txt = "Number of HWs destoryed: " + Game.points;
     var i = pointsLength - txt.length,
       zeros = "";
     while (i-- > 0) {
