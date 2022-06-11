@@ -20,8 +20,11 @@ It is simply to introduce CSEE student to use JavaScript and HTML, how it is run
 How to get started:
 --------------------------
 1. Fork this project on your repository and clone it
+  - git clone [htt](https://github.com/davidpiao/OSSFinalProject)
 2. Move to your own Raspberry Pi /var/www/html folder
+  - sudo cp folder-name/ /var/www/html/ -r
 3. Enable ssh connection with your raspberry pi
+  - sudo systemctl enable ssh
 4. Enter the ip address with the folder name
   - ex) http://192.000.0.000/folder-name/
 
