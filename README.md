@@ -3,25 +3,32 @@ Homework Invasion
 
 What does this project do?
 --------------------------
+This project's main purpose is to entertain students who are stressed out by buttload of homeworks.
+The functions of this project are:
+- Playable in both web and mobile
+- When pressed space, the game starts and the spaceship fires
+- The right and left key moves your spaceship
+- When the misslies you shoot hits enemy spaceship, the enemy spaceship is destroyed.
+- On the other hand, when the enemy misslie hits your spaceship, the game is over.
+- The left top tells how many homework spaceships are destoryed.
+- When dodged all attacks, the game ends.
 
-It is released under both the GPL and MIT license to do with what you will.
+Why is this project useful?
+--------------------------
+It is simply to introduce CSEE student to use JavaScript and HTML, how it is run and compiled together. It is a great introduction for playing games on Raspberry Pi too.
 
-Playable Version: 
-http://cykod.github.com/AlienInvasion/
+How to get started:
+--------------------------
+1. Fork this project on your repository and clone it
+2. Move to your own Raspberry Pi /var/www/html folder
+3. Enable ssh connection with your raspberry pi
+4. Enter the ip address with the folder name
+  - ex) http://192.000.0.000/folder-name/
 
-Bit.ly link for mobile: 
-http://bit.ly/html5-invasion
+Where to get more help:
+--------------------------
+You can ask for more help on my email:
+Email: david@handong.ac.kr
 
-
-If you make an interesting fork or enhancement of the game, let me know and it'll get
-linked to here. This original repo will stay matching the code in the book.
-
-For more  [HTML5 Game Development](http://www.html5gamedevelopment.org) resources, see:
-
-* [HTML5 Game Demos](http://www.html5gamedevelopment.org/html5-demos)
-* [HTML5 GameDev Tutorials](http://www.html5gamedevelopment.org/html5-game-tutorials)
-* [HTML5 Game Development News](http://www.html5gamedevelopment.org/html5-news)
-* [HTML5 Game Engines](http://www.html5gamedevelopment.org/html5-engines)
-
-
-
+YouTube Link:
+--------------------------
